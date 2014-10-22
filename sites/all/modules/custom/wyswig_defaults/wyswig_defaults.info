@@ -1,0 +1,13 @@
+name = Wyswig_defaults
+core = 7.x
+package = Features
+version = 7.x-1.0-alpha1
+project = wyswig_defaults
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[wysiwyg][] = filtered_html
+features[wysiwyg][] = full_html
